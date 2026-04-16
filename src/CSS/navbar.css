@@ -1,0 +1,113 @@
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 26px;
+  z-index: 200;
+  background: #020c1b;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  padding: 0;
+  width:    100%;
+  height:auto ;
+}
+
+/* INNER */
+.nav-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 14px 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-box {
+  width: 38px;
+  height: 38px;
+  background: linear-gradient(135deg, #0057ff, #00e5b4);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+}
+
+.logo-main {
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.logo-sub {
+  font-size: 10px;
+  color: #00e5b4;
+}
+
+/* LINKS */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: rgba(255,255,255,0.6);
+  font-size: 14px;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+/* ACTIVE TAB */
+.nav-links .active {
+  background: rgba(255,255,255,0.08);
+  color: #00e5b4;
+}
+
+/* BUTTONS */
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* OUTLINE */
+.btn-outline {
+  padding: 8px 16px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: transparent;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  border-color: #00e5b4;
+  color: #00e5b4;
+}
+
+/* PRIMARY */
+.btn-primary {
+  padding: 9px 18px;
+  background: #0057ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: #003db3;
+}

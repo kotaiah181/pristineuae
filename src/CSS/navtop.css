@@ -1,0 +1,20 @@
+/* TOPBAR NORMAL */
+.topbar {
+  width: 100%;
+  background: #020c1b;
+  transition: all 0.3s ease;
+}
+
+/* HIDE ON SCROLL */
+.topbar.hide {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+/* NAVBAR STICKY */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background: #020c1b;
+}
